@@ -43,7 +43,7 @@ curl -X POST https://api.whaleguard.com/otc \
   -d '{"tokenA":"SOL","tokenB":"USDC","amount":5000,"wallet":"YOUR_ADDRESS"}'
 ```
 
-🛠️ Technical Requirements (SEO-Friendly Setup Guide)
+## 🛠️ Technical Requirements
 
     Rust 1.65+ (curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh)
 
@@ -51,7 +51,7 @@ curl -X POST https://api.whaleguard.com/otc \
 
     Anchor 0.28 (cargo install --git https://github.com/coral-xyz/anchor avm && avm install 0.28.0)
 
-Iceberg Order Execution (#SolanaIceberg)
+**Iceberg Order Execution** (#SolanaIceberg)
 
 ```
 from whaleguard import IcebergBot
@@ -65,7 +65,7 @@ bot = IcebergBot(
 bot.execute(wallet="YOUR_WALLET")
 ```
 
-Trailing Stop-Loss (#SolanaStoploss)
+**Trailing Stop-Loss** (#SolanaStoploss)
 
 ```
 // Smart contract snippet
