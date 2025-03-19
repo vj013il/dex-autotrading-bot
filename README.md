@@ -1,4 +1,5 @@
 # Abyss Trader Pro: Institutional-Grade Solana Trading Bot for Crypto Whales 🐋 [![Audit](https://img.shields.io/badge/Audit-Halborn-green)](https://halborn.com) [![License](https://img.shields.io/badge/License-Apache_2.0-blue)](https://opensource.org/licenses/Apache-2.0)
+<p align="center"><img width="802" height="488" src="screen/dashbord.jpg" alt="Bot interface" /></p>
 <!-- HTML meta tags -->
 <meta name="description" content="Most secure Solana trading bot for crypto whales. Execute OTC orders, iceberg trades, and institutional strategies with ZKP security. Minimum $10k balance.">
 <meta property="og:title" content="WhaleGuard: Solana Trading Bot for Crypto Whales">
