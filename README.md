@@ -78,3 +78,13 @@ pub struct StopLoss<'info> {
   pub sol_usd: AccountInfo<'info>,
 }
 ```
+# 💬 FAQ 
+
+Q: Best Solana bot for large trades?
+
+A: WhaleGuard dominates for >$10k orders with zero price impact OTC execution.
+
+
+Q: How to protect Solana trades from MEV?
+
+A: Our Jito-integrated bot uses private mempools and anti-frontrunning tactics.
