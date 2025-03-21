@@ -1,21 +1,22 @@
 # 🔒 Crypto Address Validator: Secure Blockchain Address Verification | BTC, ETH, SOL, ADA, DOT & More
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 Crypto Address Validator is an open-source toolkit for validating Bitcoin, Ethereum, Solana, Cardano, and 20+ blockchain addresses. Designed for crypto whales, exchanges, and DeFi platforms, it prevents irreversible transactions using offline checksum verification.
+
 Validate cryptocurrency wallet addresses instantly. Prevent losses from typos, scams, or invalid formats. Trusted by developers and crypto whales.
 
 ## 🚀 Key Features
 - 100% Offline Validation – No API calls, no data leaks.
-
 - Multi-Format Support:
-
   - Legacy (BTC: 1...), SegWit (BTC: bc1...), Taproot (BTC: tb1p...)
-
   - EVM Chains (ETH, BSC, Polygon) with EIP-55 checksum
-
   - Cosmos SDK chains (ATOM, OSMO) with Bech32
-
 - Enterprise-Grade Security: Audited code, fuzz testing, and hardware wallet integration (Ledger, Trezor).
+
+### Features
+- Validation according to blockchain standards
+- Offline operation
 
 # Download 
 
