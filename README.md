@@ -1,10 +1,14 @@
-# QuantumFlow Pro 🚀  
+# Market Maker CeFi BOT 🚀  
 **Ultra-Low Latency Market Making Suite for CeFi & DeFi | Algorithmic Trading, Liquidity Management & Cross-Exchange Arbitrage**  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
 
+<p align="center"><img width="685" height="420" src="dashboard/gui.jpg" alt="Bot interface" /></p>
+
 > **Professional algorithmic market-making software with FPGA acceleration, 20+ exchange integrations, and cross-chain DeFi support. Monetize spreads, liquidity, and arbitrage opportunities!** 🔥
+
+## To get DM: https://t.me/ZeronodeX
 
 ---
 
@@ -52,8 +56,6 @@
 - Python 3.10+  
 - Redis Server (for order book caching)  
 - Exchange API keys (e.g., [Binance](https://www.binance.com))  
-
-### ⚙️ Installation  
 
 ### 🛠 Sample Config (config.yaml)
 ```
