@@ -2,10 +2,7 @@
 **Ultra-Low Latency Market Making Suite for CeFi & DeFi | Algorithmic Trading, Liquidity Management & Cross-Exchange Arbitrage**  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/yourusername/quantumflow-pro/actions/workflows/build.yml/badge.svg)](https://github.com/yourusername/quantumflow-pro/actions)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
-[![Discord](https://img.shields.io/discord/123456789101112)](https://discord.gg/your-invite-link)
-[![Twitter](https://img.shields.io/twitter/follow/quantumflow_pro?style=social)](https://twitter.com/quantumflow_pro)
 
 > **Professional algorithmic market-making software with FPGA acceleration, 20+ exchange integrations, and cross-chain DeFi support. Monetize spreads, liquidity, and arbitrage opportunities!** 🔥
 
