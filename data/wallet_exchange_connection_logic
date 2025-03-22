@@ -1,0 +1,33 @@
+class WalletManager:
+    def __init__(self):
+        self.connected_wallets = {}  # Формат: {'Binance': APIclient, 'MetaMask': web3}
+    
+    def connect_cefi(self, exchange: str, api_key: str, api_secret: str):
+        """Connection to CeFi Exchange."""
+        if exchange == "Binance":
+            from binance.client import Client
+            self.connected_wallets['Binance'] = Client(api_key, api_secret)
+            return self.fetch_cefi_tokens()
+    
+    def connect_defi(self, private_key: str, network: str):
+        """DeFi Wallet Connection."""
+        from web3 import Web3
+        w3 = Web3(Web3.HTTPProvider(network))
+        wallet = w3.eth.account.from_key(private_key)
+        self.connected_wallets['MetaMask'] = wallet
+        return self.fetch_defi_tokens(wallet.address)
+
+    def fetch_cefi_tokens(self):
+        """Getting a list of tokens with balance > 0 on the exchange."""
+        client = self.connected_wallets['Binance']
+        balances = client.get_account()['balances']
+        return [{'symbol': b['asset'], 'balance': float(b['free'])} 
+                for b in balances if float(b['free']) > 0]
+
+    def fetch_defi_tokens(self, address: str):
+        """Obtaining ERC-20 tokens via Etherscan API."""
+        from etherscan import Etherscan
+        eth = Etherscan(API_KEY)
+        tokens = eth.get_token_balances(address)
+        return [{'symbol': t['symbol'], 'balance': t['balance']} 
+                for t in tokens if t['balance'] > 0]
