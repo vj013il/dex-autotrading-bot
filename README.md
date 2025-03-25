@@ -5,18 +5,23 @@
 ##  Key Features
 
 - Rule-Based Market Making
+
 Set fixed/dynamic spreads (e.g., spread = volatility × coefficient) or use prebuilt templates.
 
 - Multi-DEX Arbitrage	Automatically shift liquidity to pools with higher fees/volume.
+
 Automatically shift liquidity to pools with higher fees/volume.
 
 - Risk Management	Stop-loss triggers, volume limits (e.g., max 5% per order), and token blacklists.
+
 Stop-loss triggers, volume limits (e.g., max 5% per order), and token blacklists.
 
 - Auto-Rebalancing	Rebalance orders every N minutes or on price deviation (e.g., ±2%).
+
 Rebalance orders every N minutes or on price deviation (e.g., ±2%).
 
 - Leverage Integration	Borrow assets from DeFi protocols (e.g., Marginfi) to amplify liquidity.
+
 Borrow assets from DeFi protocols (e.g., Marginfi) to amplify liquidity.
 
 ##  Blockchain Integration
