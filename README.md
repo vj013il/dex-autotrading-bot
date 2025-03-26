@@ -76,3 +76,81 @@ leverage:
   protocol: marginfi  
   max_borrow: 50%  # Borrow up to 50% of collateral  
 ```
+
+## Settings
+
+### 1. Rule-oriented market-making
+```
+market_making:
+  spread:
+    type: "dynamic"           # fixed/dynamic
+    fixed_value: 0.005        # 0.5% (если type=fixed)
+    volatility_coeff: 0.15    # Coefficient for the spread formula (dynamic)
+  
+  strategy_templates:
+    stable:
+      order_distribution: "uniform"
+      num_orders_per_side: 10
+    volatile:
+      order_distribution: "logarithmic"
+      num_orders_per_side: 20
+```
+
+### 2. Multi-DEX control
+```
+dex:
+  enabled_dexes: ["raydium", "orca", "openbook"]
+  arbitrage:
+    enabled: true
+    volume_threshold: 10000    # Minimum volume for arbitrage ($)
+    profit_threshold: 0.03     # 3% minimum profit
+  max_slippage: 0.01           # 1%
+```
+
+### 3. Risk management
+```
+risk:
+  total_capital: 100000        # $100,000
+  max_order_percent: 5         # 5% of capital
+  stop_loss:
+    volume_drop_threshold: 30  # -30% volume per hour
+    cooldown: 3600             # 1 hour (in seconds)
+  
+  blacklist:
+    tokens: ["TOKEN_ADDR1", "TOKEN_ADDR2"]
+    min_volume: 1000000        # $1M
+    require_verified_contract: true
+```
+
+### 4. Rebalancing
+```
+rebalance:
+  time_based:
+    interval: 300             # 5 minutes (in seconds)
+    enabled: true
+  
+  price_based:
+    deviation_threshold: 2    # 2% on target
+    enabled: true
+  
+  oracles:
+    primary: "pyth"
+    fallback: "switchboard"
+```
+
+### 5. Safety
+```
+security:
+  wallet_type: "ledger"       # phantom/backpack/ledger
+  rpc_endpoints:
+    main: "https://solana-api.example.com"
+    backup: "https://backup.solana-api.example.com"
+  
+  mev_protection:
+    enabled: true
+    jito_max_retries: 3
+  
+  logging:
+    level: "detailed"         # basic/detailed
+    export_format: "csv"      # csv/json
+```
