@@ -36,6 +36,10 @@ Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for ligh
 
   - Smart Contracts: Audited, open-source Anchor-based programs for liquidity pools.
 
+## Guides
+- [How to Turn $300k Liquidity into a Solana Money Printer (Step-by-Step)](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight)
+- 
+
 ## Example Usage
 
 1. Configure Your Strategy (config.yaml):
