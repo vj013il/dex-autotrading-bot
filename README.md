@@ -38,7 +38,7 @@ Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for ligh
 
 ## Guides
 - [How to Turn $300k Liquidity into a Solana Money Printer (Step-by-Step)](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight)
-- 
+- [Ultimate Guide to Maximizing Profits with Solana Market Maker](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight/ultimate-guide-to-maximizing-profits)
 
 ## Example Usage
 
