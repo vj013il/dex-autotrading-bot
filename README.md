@@ -43,8 +43,9 @@ Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for ligh
   - Smart Contracts: Audited, open-source Anchor-based programs for liquidity pools.
 
 ## Guides
-- [How to Turn $300k Liquidity into a Solana Money Printer (Step-by-Step)](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight)
-- [Ultimate Guide to Maximizing Profits with Solana Market Maker](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight/ultimate-guide-to-maximizing-profits)
+- [How to Turn $300k Liquidity into a Solana Money Printer with Solana Market Maker Pro (Step-by-Step)](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight)
+- [Ultimate Guide to Maximizing Profits with Solana Market Maker Pro](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight/ultimate-guide-to-maximizing-profits)
+- [How Solana Market Maker Pro Revolutionized Trading Volume & Token Liquidity](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight/how-solana-market-maker-pro-revolutionized-trading-volume-and-token-liquidity)
 
 Solana Cross-DEX Arbitrage like Pro: Capture Raydium-Orca-Serum price gaps with sub-second execution, Jito-bundled MEV protection, and Switchboard-verified triggers
 
