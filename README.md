@@ -48,6 +48,7 @@ Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for ligh
 - [How Solana Market Maker Pro Revolutionized Trading Volume & Token Liquidity](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight/how-solana-market-maker-pro-revolutionized-trading-volume-and-token-liquidity)
 
 Solana Cross-DEX Arbitrage like Pro: Capture Raydium-Orca-Serum price gaps with sub-second execution, Jito-bundled MEV protection, and Switchboard-verified triggers
+<p align="center"><img width="720" height="462" src="gui/image.png" alt="Bot interface" /></p>
 
 ## Example Usage
 
