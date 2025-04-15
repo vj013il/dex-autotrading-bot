@@ -14,43 +14,22 @@ Execute high‑speed trades across multiple Solana DEXs such as Raydium, Orca, M
 - 📈Dynamic TWAP Execution
 Split large orders into time‑weighted chunks that adapt to market volatility. The TWAP executor adjusts order intervals based on real‑time volatility signals, ensuring smooth execution and reduced market impact.
 
--⚡Sniping Module
+- ⚡Sniping Module
 Detect and exploit early‑stage opportunities by monitoring on‑chain events for newly launched liquidity pools and sudden volume spikes. Utilizing MEV‑aware techniques like Jito bundling, the Sniping Module allows ultra‑fast execution of snipes with advanced anti‑rug safeguards (e.g. LP % checks, mint authority verifications, and whale wallet profit history analysis) to secure optimal entry and exit points.
 
--💥Profit‑Boosting Strategies
+- 💥Profit‑Boosting Strategies
  - Volatility Harvesting: Automatically capture opportunities in tokens with high daily volatility using mean‑reversion or momentum strategies. 📊
  - Liquidity Mining Optimizer: Dynamically shift capital between liquidity pools by analyzing APR versus impermanent loss risk, maximizing yield potential. 💧
  - Correlation Hedge: Execute paired long/short positions when correlated tokens diverge beyond a threshold, mitigating risk and enhancing profit margins. 🔄
 
--🛡️Advanced Risk Management
+- 🛡️Advanced Risk Management
 Integrated dynamic position sizing, slippage simulation, and priority gas auction techniques ensure trades are executed with minimal risk.
 
--🔒MEV Protection & Flash Loan Integration
+- 🔒MEV Protection & Flash Loan Integration
 Optimize transaction ordering with MEV‑aware mechanisms and private relays (e.g., Flashbots, Jito) for top‑of‑block execution and improved capital efficiency.
 
--🚀High‑Performance Rust Engine
+- 🚀High‑Performance Rust Engine
 Developed in Rust using the Anchor framework for unparalleled speed and scalability, ensuring that your trading strategies execute with minimal latency and maximum reliability.
-
-##  Blockchain Integration
-Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for lightning-fast, low-cost trading:
-
-  - DEX Aggregation: Trade across Raydium, Orca, Serum, and OpenBook with unified API.
-
-  - Oracles: Real-time price feeds via Pyth Network and Switchboard.
-
-  - Wallets: Non-custodial support for Phantom, Ledger, and Backpack.
-
-  - MEV Protection: Minimize front-running with Jito bundles.
-
-  - Smart Contracts: Audited, open-source Anchor-based programs for liquidity pools.
-
-## Guides
-- [How to Turn $300k Liquidity into a Solana Money Printer with Solana Market Maker Pro (Step-by-Step)](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight)
-- [Ultimate Guide to Maximizing Profits with Solana Market Maker Pro](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight/ultimate-guide-to-maximizing-profits)
-- [How Solana Market Maker Pro Revolutionized Trading Volume & Token Liquidity](https://selenium-finance.gitbook.io/defi-solana-trading-bot/highlight/how-solana-market-maker-pro-revolutionized-trading-volume-and-token-liquidity)
-
-Solana Cross-DEX Arbitrage like Pro: Capture Raydium-Orca-Serum price gaps with sub-second execution, Jito-bundled MEV protection, and Switchboard-verified triggers
-<p align="center"><img width="720" height="462" src="gui/image.png" alt="Bot interface" /></p>
 
 ## How It Works
 
