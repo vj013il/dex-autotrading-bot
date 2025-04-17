@@ -32,11 +32,11 @@ Optimize transaction ordering with MEV‑aware mechanisms and private relays (e.
 Developed in Rust using the Anchor framework for unparalleled speed and scalability, ensuring that your trading strategies execute with minimal latency and maximum reliability.
 
 ## 🔥 Top 5 Strategies to Maximize Profits
-[ ```$10k/Day Strategy``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits/usd10k-day-strategy)
-[ ```Arbitrage Like a Pro``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
-[ ```TWAP Your Whale Orders``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
-[ ```Farm Yields Safely``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
-[ ```Ride Meme Coin Waves``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
+1. [ ```$10k/Day Strategy``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits/usd10k-day-strategy)
+2. [ ```Arbitrage Like a Pro``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
+3. [ ```TWAP Your Whale Orders``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
+4. [ ```Farm Yields Safely``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
+5. [ ```Ride Meme Coin Waves``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 
 ## How It Works
 
