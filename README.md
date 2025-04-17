@@ -18,9 +18,9 @@ Split large orders into time‑weighted chunks that adapt to market volatility. 
 Detect and exploit early‑stage opportunities by monitoring on‑chain events for newly launched liquidity pools and sudden volume spikes. Utilizing MEV‑aware techniques like Jito bundling, the Sniping Module allows ultra‑fast execution of snipes with advanced anti‑rug safeguards (e.g. LP % checks, mint authority verifications, and whale wallet profit history analysis) to secure optimal entry and exit points.
 
 - 💥Profit‑Boosting Strategies
- - 📊 Volatility Harvesting: Automatically capture opportunities in tokens with high daily volatility using mean‑reversion or momentum strategies.
- - 💧 Liquidity Mining Optimizer: Dynamically shift capital between liquidity pools by analyzing APR versus impermanent loss risk, maximizing yield potential. 
- - 🔄 Correlation Hedge: Execute paired long/short positions when correlated tokens diverge beyond a threshold, mitigating risk and enhancing profit margins.
+  - 📊 Volatility Harvesting: Automatically capture opportunities in tokens with high daily volatility using mean‑reversion or momentum strategies.
+  - 💧 Liquidity Mining Optimizer: Dynamically shift capital between liquidity pools by analyzing APR versus impermanent loss risk, maximizing yield potential. 
+  - 🔄 Correlation Hedge: Execute paired long/short positions when correlated tokens diverge beyond a threshold, mitigating risk and enhancing profit margins.
 
 - 🛡️Advanced Risk Management
 Integrated dynamic position sizing, slippage simulation, and priority gas auction techniques ensure trades are executed with minimal risk.
