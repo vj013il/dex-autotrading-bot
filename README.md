@@ -35,14 +35,14 @@ Dynamic position sizing, slippage simulation, and priority gas auction technique
 - 🚀High‑Performance Rust Engine
 Leveraging Rust and Anchor, the engine delivers millisecond‑scale throughput and horizontal scalability. Plug in best Solana trading bots for wholesalers or custom algorithms to suit any volatility profile. 
 
-## 🔥 Top 5 Strategies to Maximize Profits
+## 🔥 Top 7 Strategies to Maximize Profits
 1. [ ```$10k/Day Strategy``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits/usd10k-day-strategy)
 2. [ ```Arbitrage Like a Pro``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 3. [ ```TWAP Your Whale Orders``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 4. [ ```Farm Yields Safely``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 5. [ ```Ride Meme Coin Waves``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
-
-## [How Solana MVP System Volatility-Harvesting and Liquidity-Shock Trading Strategies Outpace Legacy Venues](https://medium.com/@solanaarbitragemvp/how-solana-mvp-system-volatility-harvesting-and-liquidity-shock-trading-strategies-outpace-legacy-cc988fa8f64c)
+6. [ ```How Solana MVP System Volatility-Harvesting and Liquidity-Shock Trading Strategies Outpace Legacy Venues``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits/how-solana-mvp-system-volatility-harvesting-and-liquidity-shock-trading-strategies-legacy-venues))
+7. [ ```How to Protect 1m$ Capital using Solana MVP System``` ](How to Protect 1m$ Capital When Investing and Trading in Solana Network using Solana MVP System)
 
 ## How It Works
 
