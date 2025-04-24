@@ -41,8 +41,8 @@ Leveraging Rust and Anchor, the engine delivers millisecond‑scale throughput a
 3. [ ```TWAP Your Whale Orders``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 4. [ ```Farm Yields Safely``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 5. [ ```Ride Meme Coin Waves``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
-6. [ ```How Solana MVP System Volatility-Harvesting and Liquidity-Shock Trading Strategies Outpace Legacy Venues``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits/how-solana-mvp-system-volatility-harvesting-and-liquidity-shock-trading-strategies-legacy-venues))
-7. [ ```How to Protect 1m$ Capital using Solana MVP System``` ](How to Protect 1m$ Capital When Investing and Trading in Solana Network using Solana MVP System)
+6. [ ```How Solana MVP System Volatility-Harvesting and Liquidity-Shock Trading Strategies Outpace Legacy Venues``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits/how-solana-mvp-system-volatility-harvesting-and-liquidity-shock-trading-strategies-legacy-venues)
+7. [ ```How to Protect 1m$ Capital using Solana MVP System``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits/how-to-protect-1musd-capital-when-investing-and-trading-in-solana-network-using-solana-mvp-system)
 
 ## How It Works
 
