@@ -42,6 +42,8 @@ Leveraging Rust and Anchor, the engine delivers millisecond‑scale throughput a
 4. [ ```Farm Yields Safely``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 5. [ ```Ride Meme Coin Waves``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/top-5-strategies-to-maximize-profits)
 
+## [How Solana MVP System Volatility-Harvesting and Liquidity-Shock Trading Strategies Outpace Legacy Venues](https://medium.com/@solanaarbitragemvp/how-solana-mvp-system-volatility-harvesting-and-liquidity-shock-trading-strategies-outpace-legacy-cc988fa8f64c)
+
 ## How It Works
 
 ### 📡 Real‑Time Market Monitoring:
