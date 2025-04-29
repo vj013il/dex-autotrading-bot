@@ -15,7 +15,7 @@ Solana MVP scales effortlessly from high-frequency MEV extraction to strategic p
 
 ##  Key Features
 
-- ⚡ Token Launch Sniping: Adapted to monitor new pools on Raydium and Orca, Solana’s leading AMMs, using Serum’s orderbook events or pool creation instructions.
+- ⚡ Token Launch Sniping: Token sniping on Solana DEX's, with Jito bundles. Adapted to monitor new pools on Raydium and Orca, Solana’s leading AMMs, using Serum’s orderbook events or pool creation instructions.
 
 - 📈 Automated Liquidity Provision: Focuses on Solana AMMs like Saber and Orca, optimizing for low slippage and yield farming (e.g., Saber’s stablecoin pools).
 
@@ -31,7 +31,7 @@ Solana MVP scales effortlessly from high-frequency MEV extraction to strategic p
 
 - 🔄 Multi-Network Compatibility: Focuses on Solana mainnet and devnet, with extensibility to Solana-based Layer-2s or sidechains.
 
-- 🔒 Security Features: Preserves encryption, open-source code, and direct node interaction, with anti-bot measures tailored to Solana’s transaction signing.
+- 🔒 Security Features: Preserves encryption, open-source code, and direct node interaction, with anti-bot measures tailored to Solana’s transaction signing. 
 
 ## Jito-Specific Features
 - Bundle Transactions: Atomic, sequential transaction sets submitted via J Jito’s Block Engine, ensuring guaranteed execution order (critical for frontrunning).
