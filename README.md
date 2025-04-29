@@ -65,7 +65,7 @@ impl MEVOpportunityMonitor {
         let txs = client.get_recent_transactions(token_mint.parse()?).await?;
         for tx in txs {
             if tx.amount > 100.0 {
-                info!("Обнаружена крупная сделка для {}: {} SOL", token_mint, tx.amount);
+                info!("A major transaction was discovered for {}: {} SOL", token_mint, tx.amount);
                 return Ok(Some(tx));
             }
         }
@@ -84,7 +84,7 @@ use log::info;
 pub async fn snipe_with_bundle(tx: Transaction, jito_client: &JitoClient, tip: u64) -> Result<String> {
     let bundle = vec![tx.serialize()];
     let bundle_id = jito_client.submit_bundle(&bundle, tip).await?;
-    info!("Бандл отправлен для снайпинга: {}", bundle_id);
+    info!("The bandle has been sent for sniping: {}", bundle_id);
     Ok(bundle_id)
 }
 ```
