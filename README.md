@@ -1,7 +1,7 @@
 # 🚀 Solana MVP - Elite DeFi Bot
 Designed to optimize Solana Network
 
-Solana MVP is  a open-source trading bot engineered for high-net-worth investors and institutional DeFi traders with portfolios exceeding $100k. Built in Rust with seamless integration of Jito’s Block Engine and Solana’s high-throughput blockchain, this repository delivers unparalleled low-latency MEV optimization, cross-DEX arbitrage, frontrunning, and ultra-fast token sniping. Tailored for volatile DeFi markets, it empowers sophisticated traders to capture maximal extractable value (MEV) while navigating Solana large-cap portfolio strategies and bulk liquidity opportunities. 🔥
+Solana MVP is  a open-source trading bot engineered for high-net-worth investors and institutional DeFi trader. Built in Rust with seamless integration of Jito’s Block Engine and Solana’s high-throughput blockchain, this repository delivers unparalleled low-latency MEV optimization, cross-DEX arbitrage, frontrunning, and ultra-fast token sniping. Tailored for volatile DeFi markets, it empowers sophisticated traders to capture maximal extractable value (MEV) while navigating Solana large-cap portfolio strategies and bulk liquidity opportunities. 🔥
 
 <p align="center"><img width="900" height="500" src="screen.png" alt="Bot interface" /></p>
 
