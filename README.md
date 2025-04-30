@@ -21,7 +21,7 @@ With a user-friendly GUI, the user can easily change settings and parameters, an
 
 - 🛡️ Risk Mitigation & Scam Protection: Monitors SPL token programs for suspicious activities (e.g., mint authority changes) using Solana’s blockchain data.
 
-- 📊 Social Signal Monitoring: Same as Ethereum version, but prioritizes Solana-focused Telegram/Discord/X channels.
+- 📊 Social Signal Monitoring: Solana-focused Telegram/Discord/X channels.
 
 - 🚀 Advanced Order Types & Strategies: Implements limit orders via Serum DEX and dynamic swaps via Jupiter Aggregator.
 
