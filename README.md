@@ -11,7 +11,7 @@ With a user-friendly GUI, the user can easily change settings and parameters, an
 
 ## 🔥 **Key Features**
 - **DCA (Dollar Cost Averaging)**: Buying tokens at set intervals through Jupiter.
-- **DEX/CEX Arbitration**: Automatically search for price gaps between Raydium, Orca, Binance.
+- **DEX/CEX Arbitration**: Automatically search for price gaps between Raydium, Orca, Binance and more.
 - **Copying Whales**: Verified wallet transactions (from $500k+).
 - **Telegram control**: Launch strategies and one-click notifications.
 - **MEV protection**: Built-in Turbo/Secure modes.
