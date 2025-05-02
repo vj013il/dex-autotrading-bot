@@ -17,7 +17,7 @@ With a user-friendly GUI, the user can easily change settings and parameters, an
 - **MEV protection**: Built-in Turbo/Secure modes.
 
 ## Goal
-Optimize Solana deals to strengthen the network by attracting more large investorsю 💪
+Optimize Solana deals to strengthen the network by attracting more large investors💪
 
 ## 🛠️ **Setup**
 After the launch:
