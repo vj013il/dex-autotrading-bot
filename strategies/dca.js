@@ -41,8 +41,8 @@ export class DCAStrategy {
   }
 
   handleMEVProtection() {
-    // Реализация защиты от MEV
+    // Implementation of MEV protection
     console.log('Activating MEV protection...');
-    // Здесь можно добавить задержку или изменить RPC
+    // Here you can add a delay or change the RPC
   }
 }
