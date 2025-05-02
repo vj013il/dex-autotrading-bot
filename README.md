@@ -33,4 +33,4 @@ After the launch:
 - Windows: EV Code Signing Certificate.
 - macOS: Developer ID.
 
-<p align="center"><img width="900" height="500" src="screen.png" alt="Bot interface" /></p>
+<p align="center"><img width="800" height="500" src="screen.png" alt="Bot interface" /></p>
