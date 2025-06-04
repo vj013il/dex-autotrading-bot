@@ -1,7 +1,5 @@
-# 🚀 Solana Trader - Elite DeFi Bot
-Designed to optimize Solana Network
-
-Automation of DCA and CEX/DEX arbitrage. MEV protection, Ledger/Phantom. Open Source
+# 🚀 Solana Multi-Dex Arbitrage Bot
+**Solana Multi-Dex Arbitrage Bot** is an automated inter-exchange arbitrage bot on Solana. The bot tracks price differences on DEX (Raydium, Orca, Serum, Saber, Lifinity) and darkpools (Serum Dark Pool), executes trades via Jupiter Aggregator and uses validators (Jito Labs, Triton One) to minimize slippage.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -10,27 +8,29 @@ Automation of DCA and CEX/DEX arbitrage. MEV protection, Ledger/Phantom. Open So
 With a user-friendly GUI, the user can easily change settings and parameters, and analyze mempool and blockchain in real time to select the best strategy
 
 ## 🔥 **Key Features**
-- **DCA (Dollar Cost Averaging)**: Buying tokens at set intervals through Jupiter.
-- **DEX/CEX Arbitration**: Automatically search for price gaps between Raydium, Orca, Binance and more.
-- **Copying Whales**: Verified wallet transactions (from $500k+).
+- **User Trading Pairs**: Add pairs by specifying tokenization addresses (SPLs).
+- **Support for DEX and darkpools**: Raydium, Orca, Serum, Saber, Lifinity, Serum Dark Pool.
+- **Validators**: Jito Labs and Triton One for prioritized transaction processing.
 - **Telegram control**: Launch strategies and one-click notifications.
-- **MEV protection**: Built-in Turbo/Secure modes.
+- **Customizable price range**: Set a minimum and maximum profit (e.g. 0.5-1.5%).
+- **Risk Management**: Slippage, liquidity and volatility controls.
 
-## Goal
-Optimize Solana deals to strengthen the network by attracting more large investors💪
+## Configuration
+- Specify token addresses (token_a, token_b).
 
-## 🛠️ **Setup**
-After the launch:
-1. Connect the wallet (Phantom, Ledger, Exodus, other) via the built-in interface.
-2. Select strategies in the settings:
-     -  **DCA**: Interval, Token, Amount.
-     -  **Arbitration**: Exchanges, minimum spread.
-     -  **Copying Whales**: Filter by wallet volume.
-3. Start the bot - it runs in the background (tray in the system tray).
+- Set up DEX, darkpools, validators.
 
-## 🔐 **Safety**
-**Code Signature**
-- Windows: EV Code Signing Certificate.
-- macOS: Developer ID.
+- Set the price range (min_profit_threshold, max_profit_threshold).
+
+- Specify risk parameters (max_slippage, max_trade_size_percent).
+
+## Utilization
+1. Connect wallet with private key, or create on App
+2. Start a bot and follow the notifications (Telegram/email) or in GUI Dashboard.
+3. Check analytics in the web interface
+
+## Notes
+- Use Jito Labs or Triton One for great deals (Jito Labs).
+- Update parameters regularly based on market conditions.
 
 <p align="center"><img width="800" height="500" src="screen.png" alt="Bot interface" /></p>
