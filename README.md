@@ -42,9 +42,21 @@ With a user-friendly GUI, the user can easily change settings and parameters, an
 2. Features advanced charting, portfolio management, and real-time AI predictions.
 3. Supports multi-currency sniping and cross-chain copy trading.
 
-## Utilization
-1. Connect wallet with private key, or create on App
-2. Start a bot and follow the notifications (Telegram).
+## Usage
+1. Launch the GUI
+2. Select .env File: Use the "Browse" button to choose a .env file or leave default (.env).
+3. Choose Strategy: Select "Sniping", "Copy Trading", or "AI Predictions" from the dropdown.
+4. Configure Settings:
+   - Sniping:
+        - Enter Telegram Bot Token, DEXscreener/Birdeye API keys, and Solana RPC URL.
+        - Specify Token Symbol (e.g., $KTA) and Token Address (44-character Solana address).
+        - Set Trade Amount (SOL), Buy Price (USDC), Market Depth (%), Max Slippage (%), Order Timeout (seconds), Stop Loss (%), and Take Profit (%).
+   - Copy Trading: Provide a trader’s Solana wallet address.
+   - AI Predictions: Set analysis period (hours) and prediction sensitivity (Low/Medium/High).
+5. Save Settings: Click "Save Settings" to update .env.
+6. Run Bot: Click "Run Bot".
+7. Follow the notifications in Telegram and change settings or add new strategies.
+8. View Logs: Monitor actions in the log window (e.g., liquidity checks, transaction status).
 
 ## Notes
 - Use Jito Labs or Triton One for great deals (Jito Labs).
