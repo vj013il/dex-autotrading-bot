@@ -1,6 +1,8 @@
 # 🚀 Solana Multi-Dex Sniping Bot
 **Solana Multi-Dex Sniping Bot** is a cutting-edge Telegram and web-based trading bot designed for the Solana blockchain. It combines AI-driven analytics, cross-chain copy trading, multi-currency sniping, and social signal integration to compete with top Solana trading bots like Axiom, Photon, BONKbot, Trojan, and SolTradingBot.
 
+<p align="center"><img width="800" height="500" src="screen.png" alt="Bot interface" /></p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Download Launch Panel
@@ -41,5 +43,3 @@ With a user-friendly GUI, the user can easily change settings and parameters, an
 ## Notes
 - Use Jito Labs or Triton One for great deals (Jito Labs).
 - Update parameters regularly based on market conditions.
-
-<p align="center"><img width="800" height="500" src="screen.png" alt="Bot interface" /></p>
