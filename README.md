@@ -1,5 +1,5 @@
 # 🚀 Solana Multi-Dex Sniping Bot
-**Solana Multi-Dex Arbitrage Bot** is a cutting-edge Telegram and web-based trading bot designed for the Solana blockchain. It combines AI-driven analytics, cross-chain copy trading, multi-currency sniping, and social signal integration to compete with top Solana trading bots like Axiom, Photon, BONKbot, Trojan, and SolTradingBot.
+**Solana Multi-Dex Sniping Bot** is a cutting-edge Telegram and web-based trading bot designed for the Solana blockchain. It combines AI-driven analytics, cross-chain copy trading, multi-currency sniping, and social signal integration to compete with top Solana trading bots like Axiom, Photon, BONKbot, Trojan, and SolTradingBot.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
