@@ -15,7 +15,13 @@ With a user-friendly GUI, the user can easily change settings and parameters, an
 - **Hybrid Interface**: Seamless trading via Telegram for mobility and a React-based web app for advanced functionality.
 - **AI-Powered Analytics**: Real-time trend predictions using historical data and market patterns from DEXscreener and Birdeye.
 - **Cross-Chain Copy Trading**: Replicate successful trades across Solana, Ethereum, BNB Chain, Base, and Arbitrum.
-- **Multi-Currency Sniping with Risk Management**: Snipe new tokens using WSOL, USDC, and other stablecoins with automated stop-loss and take-profit settings.
+- **Advanced Multi-Currency Sniping**: Snipe new tokens using WSOL, USDC, and other stablecoins with customizable parameters:
+  1. **Token Address**: Specify the SPL token contract address.
+  2. **Buy Price**: Set a target purchase price in USDC.
+  3. **Market Depth**: Define the percentage of the liquidity pool to target.
+  4. **Max Slippage**: Configure maximum allowable price slippage.
+  5. **Order Timeout**: Set the maximum time to wait for order execution.
+  6. **Stop Loss/Take Profit**: Automated risk management settings.
 - **Social Signal Integration**: Analyze X, Telegram, and Discord activity to identify trending tokens with high pump potential.
 - **Turbo Mode**: Optimized transaction speed using nonce accounts and custom Solana RPCs for minimal latency.
 - **Advanced MEV and Rug Pull Protection**: Automated smart contract audits to detect risks like token freezes or high developer allocations.
