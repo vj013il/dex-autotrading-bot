@@ -1,7 +1,0 @@
-module.exports = {
-  uniswapRouter: '0xE592427A0AEce92De3Edee1F18E0157C05861564',
-  sushiswapRouter: '0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F',
-  pancakeswapRouter: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
-  balancerVault: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
-  curveRegistry: '0x90E00A8b7fEE3f1f62A10C83C98E8B95E88aB87d'
-};
