@@ -1,6 +1,6 @@
 A DeFi trading bot is a powerful tool for automated crypto trading, designed to maximize profits through DEX arbitrage. This blockchain trading automation solution leverages advanced arbitrage strategies to exploit price differences across leading DEX platforms like Uniswap V3, SushiSwap, PancakeSwap, Balancer, Curve Finance, Raydium, and Orca. Integrated with DeFi platforms such as Aave and Compound, the bot ensures secure, scalable trading for high-net-worth investors.
 
-<p align="center"><img width="900" height="650" src="screenshot.png" alt="Bot interface" /></p>
+<p align="center"><img width="900" height="650" src="screenshotdash.png" alt="Bot interface" /></p>
 
 The trading bot is designed to automate arbitrage trading on decentralized exchanges (DEX). The main goal is to maximize profits through price differences between DEXs such as Uniswap V3, SushiSwap and PancakeSwap, with support for token-specific trade setup and multiple wallet management. The bot is designed to work in a multi-network environment (Ethereum, Binance Smart Chain, Polygon) with a focus on security, performance and ease of use. 
 DeFi trading bot to automate arbitrage trading on Uniswap, SushiSwap and PancakeSwap. This crypto arbitrage bot is optimized for investors, providing blockchain trading automation with support for multi-checks and smart contracts.
