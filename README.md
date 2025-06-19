@@ -2,7 +2,7 @@
 
 HyperSnipeX - High-performance sniper bot for professional traders, optimized for EVM-compatible networks like Ethereum, BSC, Polygon, Arbitrum, Avalanche, zkSync, and StarkNet. Achieve lightning-fast transactions under 2ms with private nodes, ensuring top speed, security, and flexibility. Snipe tokens on 150+ DEXs, including Uniswap, PancakeSwap, SushiSwap, and QuickSwap, with mempool sniping, presale sniping on Pinksale, DXSale, Unicrypt, and arbitrage opportunities. Features robust honeypot, rug pull, and anti-bot protection, plus customizable strategies via interface. Ideal for high-frequency trading, DeFi sniping, and crypto arbitrage, HyperSnipeX offers 99.9% uptime, DDoS protection, and encrypted data for secure trading. Perfect for advanced traders seeking fast, reliable, and secure DeFi solutions.
 
-<p align="center"><img width="900" height="600" src="interfacedash.png" alt="Bot interface" /></p>
+<p align="center"><img width="900" height="600" src="botinterface.png" alt="Bot interface" /></p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
