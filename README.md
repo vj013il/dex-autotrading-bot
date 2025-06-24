@@ -1,6 +1,6 @@
 # HyperSnipeX
 
-HyperSnipeX - High-performance sniper bot for professional traders, optimized for EVM-compatible networks like Ethereum, BSC, Polygon, Arbitrum, Avalanche, zkSync, and StarkNet. Achieve lightning-fast transactions under 2ms with private nodes, ensuring top speed, security, and flexibility. Snipe tokens on 150+ DEXs, including Uniswap, PancakeSwap, SushiSwap, and QuickSwap, with mempool sniping, presale sniping on Pinksale, DXSale, Unicrypt, and arbitrage opportunities. Features robust honeypot, rug pull, and anti-bot protection, plus customizable strategies via interface. Ideal for high-frequency trading, DeFi sniping, and crypto arbitrage, HyperSnipeX offers 99.9% uptime, DDoS protection, and encrypted data for secure trading. Perfect for advanced traders seeking fast, reliable, and secure DeFi solutions.
+HyperSnipeX is the premier DeFi sniper bot designed for professional traders seeking high-risk, high-reward strategies like impulse investment strategies, aggressive investing in new and untested protocols, and margin trading with leverage. Optimized for EVM-compatible networks such as Ethereum, BSC, Polygon, Arbitrum, Avalanche, zkSync, and StarkNet, HyperSnipeX delivers lightning-fast transactions under 2ms using private nodes for unmatched speed, security, and flexibility. Snipe tokens across 150+ DEXs, including Uniswap, PancakeSwap, SushiSwap, and QuickSwap, with advanced features like mempool sniping, presale sniping, crypto arbitrage, and robust honeypot, rug pull, and anti-bot protection. Perfect for high-frequency trading, DeFi sniping, and crypto asset optimization, HyperSnipeX empowers traders to maximize profits in volatile DeFi markets.
 
 <p align="center"><img width="900" height="600" src="botinterface.png" alt="Bot interface" /></p>
 
@@ -11,20 +11,24 @@ Download Launch Panel
 
 With a user-friendly GUI, the user can easily change settings and parameters, and analyze mempool and blockchain in real time to select the best strategy
 
+HyperSnipeX is tailored for advanced investors executing impulse investment strategies, aggressive investing in new protocols, and margin trading with leverage. With 99.9% uptime, DDoS protection, and bank-level encryption, it ensures secure, reliable, and high-performance trading across 80+ EVM-compatible blockchains. Its modular structure and user-friendly GUI allow traders to customize DeFi trading strategies, analyze mempool data in real-time, and capitalize on early token listings, presale opportunities, and arbitrage trades.
+
 # Features
-- ⚡ Lightning-Fast Sniping: Process transactions in under 2ms using optimized private nodes for maximum speed.
-- 🌐 80+ EVM-Compatible Networks: Trade on Ethereum, BSC, Polygon, Arbitrum, Avalanche, zkSync, StarkNet, and more.
+- ⚡ Lightning-Fast Sniping: Process transactions in under 2ms using private nodes for mempool sniping and presale sniping.
+- 🌐 80+ EVM-Compatible Networks: Trade on Ethereum, BSC, Polygon, Arbitrum, Avalanche, zkSync, StarkNet, Optimism, Fantom, and more.
+- 🦾 150+ DEXs Supported: Integrate with Uniswap, PancakeSwap, SushiSwap, QuickSwap, Trader Joe, SpookySwap, zkSwap, StarkDEX, and emerging platforms.
 - 🛡️ Robust Security: Advanced honeypot, rug pull, and anti-bot protection for secure DeFi trading.
 - 🔧 Customizable Strategies: Modular structure with easy configuration via files or CLI for tailored trading.
-- 📊 Real-Time Mempool Sniping: Snipe token pairs and MethodIDs across 150+ DEXs like Uniswap, PancakeSwap, and SushiSwap.
-- 🚀 Presale Sniping: Automate participation in Pinksale, DXSale, Unicrypt, and Seedify presales with liquidity monitoring.
-- 💰 Arbitrage & Trading Modes: Leverage arbitrage opportunities, stop-loss, take-profit, and buy-the-dip strategies.
+- 📊 Real-Time Mempool Analysis: Monitor token pairs and MethodIDs across DEXs for instant execution opportunities.
+- 🚀 Presale Automation: Snipe presales on Pinksale, DXSale, Unicrypt, and Seedify with liquidity monitoring and vesting checks.
+- 💰 Automated Trading Modes: Implement stop-loss, take-profit, and buy-the-dip triggers to optimize high-risk DeFi trades.
 - 🌍 Global Private Nodes: Low-latency WebSocket connections with 99.9% uptime for reliable trading.
+- ⚙️ Customizable Strategies: Configure impulse trading, arbitrage, and margin trading via interface for tailored DeFi strategies.
 - 🖥️ Interfaces: User-friendly dashboard and powerful CLI for advanced traders.
 - 🔒 Bank-Level Security: Encrypted data, DDoS protection, and secure transaction handling.
 
 # Mission
-Empower professional traders with a high-performance, secure, and flexible sniper bot to maximize profits and minimize risks in DeFi trading across EVM-compatible networks.
+HyperSnipeX’s mission is to empower professional traders with a high-performance, secure, and flexible sniper bot to execute impulse investment strategies, aggressive investing in new protocols, and margin trading with leverage. Maximize profits and minimize risks in DeFi trading across EVM-compatible networks with the ultimate tool for high-frequency trading, crypto arbitrage, and DeFi sniping.
 
 # Introduction
 HyperSnipeX is a cutting-edge sniper bot designed for professional crypto traders, offering unparalleled speed, security, and versatility in DeFi trading. Built for EVM-compatible blockchains, it supports over 80 networks and 150+ DEXs, enabling mempool sniping, presale participation, and arbitrage opportunities. With advanced protections against honeypots, rug pulls, and anti-bot mechanisms, HyperSnipeX is the ultimate tool for high-frequency trading and crypto asset optimization.
