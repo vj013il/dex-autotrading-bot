@@ -2,7 +2,7 @@
 
 **DeFi sniper bot** engineered for **professional traders** and **high-net-worth investors** targeting **high-risk, high-reward DeFi strategies**. Optimized for **impulse investing**, **aggressive trading in new protocols**, and **leverage-based margin trading**, HyperSnipeX delivers **sub-2ms transaction speeds** across **80+ EVM-compatible blockchains** like Ethereum, Binance Smart Chain (BSC), Polygon, Arbitrum, Avalanche, zkSync, and StarkNet. Seamlessly trade on **150+ decentralized exchanges (DEXs)**, including Uniswap, PancakeSwap, SushiSwap, and QuickSwap, with advanced features like **mempool sniping**, **presale sniping**, **crypto arbitrage**, and robust protections against **honeypots**, **rug pulls**, and **anti-bot mechanisms**. Tailored for **high-frequency trading** and **crypto asset optimization**, HyperSnipeX empowers **DeFi investors** with **$100K+ capital** to maximize profits in volatile markets.
 
-<p align="center"><img width="900" height="670" src="dahboard.jpg" alt="Bot interface" /></p>
+<p align="center"><img width="900" height="550" src="dahboard.jpg" alt="Bot interface" /></p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
