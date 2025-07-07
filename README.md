@@ -1,5 +1,5 @@
 # Hyperliquid Trading Bot
-
+> for whale hunting :)
 # The bot's purpose:
 Automatically track large orders (>$10 million) from traders with a balance of $100 million or more on Hyperliquid for XRP/USDC, BTC/USDC, ETH/USDC, SOL/USDC, PEPE/USDC and other pairs. The bot should place your orders earlier to profit from price movements while minimizing liquidation risk, given the high risk (10-50% of balance per trade). The desktop interface will provide convenient parameter management and monitoring.
 
