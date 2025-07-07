@@ -1,6 +1,6 @@
 
 
-<p align="center"><img width="900" height="550" src="hyper.png" alt="Bot interface" /></p>
+<p align="center"><img width="600" height="750" src="hyper.png" alt="Bot interface" /></p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
