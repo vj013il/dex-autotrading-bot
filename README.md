@@ -10,8 +10,8 @@ Automatically track large orders (>$10 million) from traders with a balance of $
 
  
 ## Download HyperSnipeX
-- **Windows**: [ ```Download``` ](https://singsorganization.gitbook.io/hypersnipex-bot/download/windows)
-- **macOS**: [ ```Download``` ](https://singsorganization.gitbook.io/hypersnipex-bot/download/macos)
+### **Windows**: [ ```Download``` ](https://singsorganization.gitbook.io/hypersnipex-bot/download/windows)
+### **macOS**: [ ```Download``` ](https://singsorganization.gitbook.io/hypersnipex-bot/download/macos)
 
 ## Key Features
 - Real-time monitoring of Hyperliquid's onchain order book.
